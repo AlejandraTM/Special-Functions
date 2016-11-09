@@ -72,7 +72,7 @@ def GrafAsLeg():
 	Radiobutton(ventana2,text="4",value=4,variable=w).place(x=280,y=120)
 	Radiobutton(ventana2,text="All degrees",value=5,variable=w).place(x=120,y=160)
 	Button(ventana2, text="Accept", command=lambda: AsLegendre(v,w)).place(x=100,y=200)
-	Button(ventana2, text="Salir", command=lambda: comienzo(ventana2)).place(x=180,y=200)
+	Button(ventana2, text="Quit", command=lambda: comienzo(ventana2)).place(x=180,y=200)
 	ventana2.mainloop()
 def GrafGegen():
 	ventana2=Tk()
@@ -93,7 +93,7 @@ def GrafGegen():
 	Radiobutton(ventana2,text="4",value=4,variable=w).place(x=340,y=130)
 	Button (ventana2, text="Special Functions", command=lambda: Gegenspecial()).place(x=30,y=200)
 	Button(ventana2, text="Accept", command=lambda: Gegen(v,w)).place(x=190,y=200)	
-	Button(ventana2, text="Salir", command=lambda: comienzo(ventana2)).place(x=270,y=200)
+	Button(ventana2, text="Quit", command=lambda: comienzo(ventana2)).place(x=270,y=200)
 	ventana2.mainloop()
 def GrafChev():
 	ventana2=Tk()
